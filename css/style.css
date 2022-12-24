@@ -3018,8 +3018,8 @@ body {
   }
 
   .main-footer__container {
-    -ms-grid-columns: (1fr)[1];
-    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .main-footer__title--spoller {
@@ -3034,9 +3034,6 @@ body {
     right: 0;
     width: 1.25rem;
     height: 1.25rem;
-    -webkit-transform: translateY(-0.125rem);
-        -ms-transform: translateY(-0.125rem);
-            transform: translateY(-0.125rem);
     background: url("../img/icons/arrow.svg") no-repeat;
     background-size: cover;
     -webkit-transition-duration: 0.3s;
